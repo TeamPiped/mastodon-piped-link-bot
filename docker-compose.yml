@@ -1,0 +1,8 @@
+services:
+  mastodon-piped:
+    image: 1337kavin/mastodon-piped-link-bot:latest
+    restart: unless-stopped
+    environment:
+      - STREAMING_URL=wss://streaming.mastodon.social
+      - REST_URL=https://mastodon.social
+      - ACCESS_TOKEN=changeme
