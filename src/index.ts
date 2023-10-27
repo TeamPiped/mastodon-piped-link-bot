@@ -27,6 +27,9 @@ for await (const event of streamingClient.public.subscribe()) {
                     visibility: "unlisted",
                     inReplyToId: event.payload.id,
                 })
+                .catch(err => {
+                    console.error(err);
+                })
                 .then(res => {
                     console.log(`Status URL: ${res.url}`);
                 });
