@@ -26,8 +26,8 @@ devDependencies:
     specifier: 29.5.6
     version: 29.5.6
   '@types/jsdom':
-    specifier: 21.1.4
-    version: 21.1.4
+    specifier: 21.1.7
+    version: 21.1.7
   '@types/node':
     specifier: 20.8.9
     version: 20.8.9
@@ -2104,8 +2104,8 @@ packages:
       pretty-format: 29.7.0
     dev: true
 
-  /@types/jsdom@21.1.4:
-    resolution: {integrity: sha512-NzAMLEV0KQ4cBaDx3Ls8VfJUElyDUm1xrtYRmcMK0gF8L5xYbujFVaQlJ50yinQ/d47j2rEP1XUzkiYrw4YRFA==}
+  /@types/jsdom@21.1.7:
+    resolution: {integrity: sha512-yOriVnggzrnQ3a9OKOCxaVuSug3w3/SbOj5i7VwXWZEyUNl3bLF9V3MfxGbZKuwqJOQyRfqXyROBB1CoZLFWzA==}
     dependencies:
       '@types/node': 20.8.9
       '@types/tough-cookie': 4.0.4
